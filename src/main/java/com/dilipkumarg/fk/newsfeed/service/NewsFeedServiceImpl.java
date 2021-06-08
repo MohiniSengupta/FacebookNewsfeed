@@ -22,7 +22,7 @@ public class NewsFeedServiceImpl implements NewsFeedService {
     public Collection<Post> listPosts() {
         final Collection<Post> posts = postService.findAllPosts();
         // todo sorting
-
+         //need sorting
         return posts;
     }
 }

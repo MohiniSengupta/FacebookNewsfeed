@@ -9,6 +9,7 @@ public class App {
     public static void main(String[] args) {
         ObjectsFactory objectsFactory = new ObjectsFactory();
         CommandLineExecutor executor = new CommandLineExecutor(objectsFactory);
+        System.out.println("added for test");
         executor.execute();
     }
 }
